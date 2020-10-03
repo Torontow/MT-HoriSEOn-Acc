@@ -1,5 +1,7 @@
 # HoriSEOn Homepage Refactor
 
+![Final Product](images/final-screen-shot.png)
+
 ## The Project
 
 The client requested that we take a look at their homepage to find some ways to improve the code's accessibility. After some quick examination, it was clear there were several ways the code was not only hampering accessibiltiy, but was probably slowing things down for them as well. I could see the following major problems:
