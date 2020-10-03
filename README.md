@@ -11,6 +11,9 @@ The client requested that we take a look at their homepage to find some ways to 
 
 Several other components of the code were not done to convention and/or my perceived best-practices, and some minor debugging was necessary.
 
+### The Process
+
+I refactored this code in phases, starting by renaming semantic elements in the HTML and translating any necessary changes to the CSS. In subsequent phases, I consolidated and reorganized styling to make it more readable, all the while making sure that site retained functionality. At times, I made some changes that led to errors that I spent some time figuring out how to fix, but thanks to some diligence and help from colleagues, I made it in the end.
 
 ## Installation
 
