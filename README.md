@@ -19,7 +19,7 @@ I refactored this code in phases, starting by renaming semantic elements in the 
 
 ## Installation
 
-Simply navigate to the site URL.
+Simply navigate to the site URL: "https://torontow.github.io/MT-HoriSEOn-Acc.github.io/"
 
 ## Usage
 
