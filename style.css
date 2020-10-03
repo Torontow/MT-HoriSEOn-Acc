@@ -1,36 +1,78 @@
-/* Clears all default styling*/
+/* 
+
+Refactoring Completed 
+
+Styling Table of Contents
+
+1. Universal 
+2. Body
+3. Header
+    3A. Navigation
+4. Anchors
+5. Non-content Division
+6. Main Box
+    6A. Box Content
+    6B. Floats
+7. Aside Column
+    7A. Container
+8. Footer
+
+*/
+
+/* 1. Universal */
+
 * {
+    /* Box-model */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* 2. Body */
+
 body {
+    /* Visual */
     background-color: #d9dcd6;
 }
 
+/* 3. Header  */
+
 .header {
+    /* Box-model */
     padding: 20px;
+
+    /* Typography */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
     color: #ffffff;
+
+    /* Visual */
+    background-color: #2a607c;
 }
 
 .header h1 {
+    /* Positioning */
     display: inline-block;
+
+    /* Typography */
     font-size: 48px;
 }
 
 .header h1 .seo {
+    /* Visual */
     color: #d9dcd6;
 }
 
-/* This keeps the  avigation portion of the header to the right */
+/* 3A. Navigation */
 
 .header nav {
+    /* Box-model */
     padding-top: 15px;
     margin-right: 20px;
+
+    /* Positioning */
     float: right;
+
+    /* Typography */
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -44,25 +86,78 @@ body {
     margin-left: 25px;
 }
 
+/* 4. Anchors  */
+
 a {
-    color: #ffffff;
+    /* Typography */
     text-decoration: none;
+
+    /* Visual */
+    color: #ffffff;
+    
 }
 
+/*  5. Non-content Division */
+
 #stock-photo {
+    /* Sizing */
     height: 800px;
     width: 100%;
+
+    /* Box-model */
     margin-bottom: 25px;
-    background-image: url("images/digital-marketing-meeting.jpg");
+
+    /* Background */
+    background-image: url("images/digital-marketing-meeting.jpg"); 
     background-size: cover;
     background-position: center;
 }
 
+/* 6. Main Box */
+
 .main {
+    /* Sizing */
     width: 75%;
+
+    /* Positioning */
     display: inline-block;
+
+    /* Box-model */
     margin-left: 20px;
 }
+
+/* 6A. Box Content */
+
+.box-content {
+    /* Box-model */
+    margin-bottom: 20px;
+    padding: 50px;
+
+    /* Sizing */
+    height: 300px;
+
+    /* Typography */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
+    /* Visual */
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.box-content img {
+    /* Image Sizing */
+    max-height: 200px;
+}
+
+.box-content h2 {
+    /* Header Sizing */
+    margin-bottom: 20px;
+
+    /* Typography */
+    font-size: 36px;
+}
+
+/* 6B. Floats */
 
 .float-left {
     float: left;
@@ -74,16 +169,31 @@ a {
     margin-left: 25px;
 }
 
+/* 7. Aside Column */
+
+/* 7A. Container */
+
 .benefits-column {
+    /* Box-model */
     margin-right: 20px;
     padding: 20px;
+
+    /* Floats */
     clear: both;
     float: right;
+
+    /* Sizing */
     width: 20%;
     height: 100%;
+
+    /* Typography */
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
+    /* Visual */
     background-color: #2589bd;
 }
+
+/* 7B. Content */
 
 .benefit {
     margin-bottom: 32px;
@@ -101,23 +211,9 @@ a {
     max-width: 150px;
 }
 
-.aside-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.aside-content img {
-    max-height: 200px;
-}
 
-.aside-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* 8. Footer */
 
 .footer {
     padding: 30px;
